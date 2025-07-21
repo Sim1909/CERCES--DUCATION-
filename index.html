@@ -11,6 +11,19 @@
       background-color: #f4f8fc;
       color: #333;
     }
+   .logo {
+      display: block;
+      margin: 0 auto 10px;
+      max-width: 120px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+   .logo:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+}
     header {
       background-color: #0074c7;
       color: white;
@@ -60,11 +73,10 @@
 </head>
 <body>
   <header>
-    <img src="logo_cercs.png" alt="Logo CERCS">
+    <img src="logo_cercs.png" alt="Logo CERCS" class="logo">
     <h1>CERCS-ÉDUCATION</h1>
     <p><em>Effort, Travail, Réussite</em></p>
   </header>
-
   <nav>
     <a href="#apropos">À propos</a>
     <a href="#programmes">Nos Programmes</a>
@@ -95,7 +107,7 @@
 
   <section id="contact">
     <h2>Contact</h2>
-    <p>📍 Adresse : 12 Av. DEBRAZZA, Dolisie, République du Congo</p>
+    <p>📍 Adresse : 12 Av. DEBRAZZA,Dolisie, République du Congo</p>
     <p>📞 Téléphone : +242 06 804 67 29</p>
     <p>📧 Email : cercs2015@gmail.com</p>
   </section>
